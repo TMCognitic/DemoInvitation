@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<h1>Singleton</h1>
+<h3>By Injection : @ViewBag.Singleton1</h3>
+<h3>By RequestServices : @ViewBag.Singleton2</h3>
+
+<h1>Scoped</h1>
+<h3>By Injection : @ViewBag.Scoped1</h3>
+<h3>By RequestServices : @ViewBag.Scoped2</h3>
+
+<h1>Transient</h1>
+<h3>By Injection : @ViewBag.Transient1</h3>
+<h3>By RequestServices : @ViewBag.Transient2</h3>
